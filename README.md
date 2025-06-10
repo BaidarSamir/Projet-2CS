@@ -62,8 +62,8 @@ To run the frontend locally, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/SatelliteVisionAI.git
-   cd SatelliteVisionAI
+   git clone https://github.com/BaidarSamir/Projet-2CS.git
+   cd Projet-2CS
    ```
 
 2. **Install Dependencies**:
@@ -76,13 +76,13 @@ To run the frontend locally, follow these steps:
 3. **Start the Development Server**:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
    The app will be available at `http://localhost:3000`.
 
-4. **Backend Integration** (Optional):
-   - The frontend communicates with a FastAPI backend (e.g., `http://127.0.0.1:8000/get_prediction`). Ensure the backend is running as per the `main.py` provided earlier.
+4. **Backend Integration**:
+   - The frontend communicates with a FastAPI backend (e.g., `http://127.0.0.1:8000/get_prediction`). Ensure the backend is running as per the `main.py`.
    - Update the API endpoint in the frontend code if the backend URL differs.
 
 ## Usage
